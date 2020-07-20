@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingBottom="8dp"
+    android:dividerHeight="8dp">
+
+
+    <EditText
+        android:id="@+id/ttextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:focusable="false"
+        android:text="Test"
+        android:focusableInTouchMode="false"
+        android:editable="false"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/tdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttextName"
+        android:text="01-02-2019"
+        android:textSize="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/titem_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/titem_info2"
+        android:layout_marginRight="40dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_android_black_24dp" />
+
+    <ImageView
+        android:id="@+id/titem_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_android_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/titem_info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_android_black_24dp"/>
+
+</RelativeLayout>

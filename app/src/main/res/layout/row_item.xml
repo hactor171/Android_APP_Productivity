@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingBottom="8dp"
+    android:dividerHeight="8dp"
+    android:background="@drawable/round_shape">
+
+
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:editable="false"
+        android:background="@null"/>
+
+    <EditText
+        android:id="@+id/descriptionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_marginTop="8dp"
+        android:text="Text"
+        android:textSize="13dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:editable="false"
+        android:background="@null"/>
+
+
+    <TextView
+        android:id="@+id/textViewTasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/item_info2"
+        android:layout_marginRight="25dp"
+        android:layout_centerVertical="true"
+        android:text="0"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/item_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+</RelativeLayout>
